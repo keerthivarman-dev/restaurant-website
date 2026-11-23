@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition:1s ease-out 0.3s;
 }
 
 body{
+    transition:1s ease-out 0.3s;
     background-color: #121212;
 }
 
@@ -74,8 +74,6 @@ a:hover{
     border-radius: 12px;
 }
 
-
-
 .hero-cont{
     margin: auto 0;
     text-align: center;
@@ -91,7 +89,7 @@ a:hover{
 }
 
 .hero-h1{
-  margin: 20px 0;
+    margin: 20px 0;
     font-size: 48px;
     font-weight: 600;
     line-height: 1.2;
@@ -129,7 +127,7 @@ a:hover{
 .two{
     width: 180px;
     color: #f5e6c8;
-   background: none;
+    background: none;
     border: 2px solid goldenrod;
 }
 
@@ -186,7 +184,7 @@ a:hover{
     border: 2px solid goldenrod;
     border-radius: 8px;
     background-color: goldenrod;
-   font-size: 17px;
+    font-size: 17px;
 }
 
 /* signature dishes */
@@ -230,7 +228,7 @@ a:hover{
     padding: 24px 30px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-  gap: 30px;
+    gap: 30px;
 }
 
 .card{
@@ -363,9 +361,9 @@ a:hover{
 }
 
 .main-course h1{
-     padding: 15px 24px;
-  font-size: 23px;
-  font-family: sans-serif;
+   padding: 15px 24px;
+   font-size: 23px;
+   font-family: sans-serif;
 }
 
 .grill{
@@ -413,7 +411,7 @@ a:hover{
     font-size: 22px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 2px;
-  padding: 10px 22px;
+    padding: 10px 22px;
 }
 
 .dessert li{
@@ -478,7 +476,7 @@ a:hover{
 /* gallery cards */
 
 .gall-cards{
-  margin-top: 50px;
+    margin-top: 50px;
     padding: 30px 0;
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
@@ -851,14 +849,4 @@ iframe{
     font-size: 17px;
      line-height: 1.5;
     letter-spacing: 1.2px;
-}
-
-@keyframes heroimage {
-    from{
-        transform: translateX(0);
-    }
-    to{
-        transform: translateX(50px);
-    }
-    
 }
