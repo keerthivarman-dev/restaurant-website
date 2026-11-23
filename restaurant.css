@@ -108,7 +108,7 @@ a:hover{
     margin: 30px 0;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
 }
 
 .hero-btn1{
@@ -193,7 +193,6 @@ a:hover{
     margin: 20px 0;
 }
 
-
 .dish-cont{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -233,8 +232,8 @@ a:hover{
 
 .card{
     margin: 20px auto;
-    width: 80%;
-    height: 47vh;
+    width: 85%;
+    height: auto;
     border-radius: 10px;
 }
 
@@ -251,13 +250,14 @@ a:hover{
 
 .card-cont h2{
     padding-left: 10px;
+    font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .card-p{
     margin: 15px 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 17px;
+    font-size: 15px;
     padding-left: 10px;
     padding-right: 1px;
 }
@@ -723,13 +723,12 @@ button:hover {
 }
 
 .ifrme{
-    /* margin: 50px 0; */
     padding: 30px;
    display: flex;
 }
 
 .locat{
-      margin: 50px 30px;
+    margin: 50px 30px;
     width: 47%;
     height: 60vh;
 }
@@ -849,4 +848,178 @@ iframe{
     font-size: 17px;
      line-height: 1.5;
     letter-spacing: 1.2px;
+}
+
+
+@media (max-width:480px) {
+   
+    #icon{
+        font-size: 30px;
+    }
+
+    .logo{
+        font-size: 25px;
+    }
+
+    .menus{
+        display: none;
+    }
+
+    .line{
+         margin-bottom: 40px;
+    }
+
+    /* hero section  */
+
+    .hero{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .hero-cont{
+        width: 100%;
+    }
+
+    .hero-img{
+        width: 100%;
+        margin-left: -1px;
+    }
+
+    /* about section */
+    .about{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .about-img{
+        width: 100%;
+    }
+
+    .about-cont{
+        width: 100%;
+    }
+
+    .abo-btn{
+        width: 100%;
+    }
+
+    /* menu section  */
+     .cards{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .left-fourhead{
+        padding:0 20px ;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .soup p{
+        font-size: 14px;
+    }
+
+    .grill p{
+        font-size: 14px;
+    }
+
+     /* gallery section  */
+    .gall-cards{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+ 
+    /* reservation section  */
+    .res-p{
+        padding: 0 10px;
+    }
+
+    .left-table{
+        margin: -20px auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .table-form{
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .form-row{
+         width: 85%;
+         margin: 0 auto;
+    }
+
+    .form-row label{
+        font-size: 18px;
+        margin-left: -2px;
+    }
+
+    .reserve-img{
+        margin: 0 auto;
+      width: 95%;
+    }
+
+    .reserve-img img{
+        width: 100%;
+    }
+     
+    /* contact section  */
+
+    .cont-h1{
+        padding-top: 40px;
+    }
+    
+    .cont-p{
+        padding: 0 10px;
+    }
+
+    .ifrme{
+         margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .left-contact{
+       margin: 0 -30px;
+        width: 95%;
+    }
+
+    .form-cont label{
+         margin: 0 auto;
+        font-size: 18px;
+        margin-left: -1px;
+    }
+
+    .lef-conh2{
+        font-size: 25px;
+    }
+
+    .form-cont{
+        width: 95%;
+    }
+
+    .locat{
+        width:95%;
+        margin: 0 -2px;
+    }
+
+    iframe{
+       margin: 0 auto;
+        width: 100%;
+    }
+
+    /* footer section  */
+    .flex-foot{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .brand-h1{
+        font-size: 30px;
+    }
+
+    .abou-p{
+        font-size: 15px;
+    }
 }
